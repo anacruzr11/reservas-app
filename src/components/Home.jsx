@@ -55,7 +55,7 @@ const Home = () => {
 
   return (
     <div>
-      <nav>
+      <nav className='navBar'>
        <Link to={"/"}>Inicio</Link>
        <Link to={"/reservas"}>Reservas</Link>
        <Link to={"/menu"}>Menu</Link>

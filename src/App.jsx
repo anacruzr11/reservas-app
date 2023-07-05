@@ -18,6 +18,7 @@ function App() {
           </div>
          <div className="text">
            <p>Desde 1998 traemos para ti, tu familia y amigos, los mejores sabores de las familias colombianas para que los disfruten juntos en cualquier ocasión.</p>
+           <p>Atrévete a probar nuevos sabores traídos desde cada una de las regiones del país a tu mesa.</p>
          </div>
           </div>            
            <div className="imgPrincipal col-7">  
