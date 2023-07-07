@@ -1,4 +1,4 @@
-.navbar {
+.navBar {
   background-color: rgb(1, 1, 23);
 }
 
@@ -21,4 +21,10 @@
   background-size: cover;
   color: white;
   padding: 30px;
+}
+
+@media (max-width: 768px) {
+  .informacion {
+    flex-direction: column;
+  }
 }

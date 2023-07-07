@@ -78,8 +78,8 @@ const Home = () => {
            <button id="btnCrear" className="btn btn-success" onClick={createUser()}>Enviar</button>
          </div>
        </div>
-       {users.map((item)=>{
-       return(
+       {users.map((item)=>
+       
          <div key={item.id}>
            <h5>Nombre: <p>{item.nombre}</p></h5>
            <h5>Telefono: <p>{item.telefono}</p></h5>
@@ -89,8 +89,8 @@ const Home = () => {
           <button className="btn btn-danger" onClick={()=> borrarUsuario(item.id)}>Borrar</button>
           <button className="btn btn-warning" onClick={()=> formUpdateOpen(item)}>Editar</button>
          </div>
-       )
-     })}
+       
+     )}
 
     {
       formUpdate &&
